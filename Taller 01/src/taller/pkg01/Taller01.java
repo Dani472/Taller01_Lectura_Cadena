@@ -18,32 +18,33 @@ public class Taller01 {
     String Caracteres;
     char[] arrayChar;
 
-    public static void ContarCaracteres(String x) {
+    public static double ContarCaracteres(String x) {
 
-        int sumaCaracteres = 0;
+        double sumaCaracteres = 0.0;
         char[] arrayChar = x.toCharArray();
 
         for (int i = 0; i < arrayChar.length; i++) {
             sumaCaracteres++;
         }
-        System.out.println("Caracteres:" + sumaCaracteres);
+        System.out.println("Caracteres: " + sumaCaracteres);
+        return sumaCaracteres;
     }
 
-    public static void ContarPalabras(String[] a) {
+    public static double ContarPalabras(String[] a) {
 
-        int sumaPalabras = 0;
+        double sumaPalabras = 0.0;
         for (int i = 0; i < a.length; i++) {
             if (a[i].length() != 0) {
                 sumaPalabras++;
             }
         }
-        System.out.println("Palabras:" + sumaPalabras);
-
+        System.out.println("Palabras: " + sumaPalabras);
+        return sumaPalabras;
     }
 
-    public static void ContarEspacios(String z) {
+    public static double ContarEspacios(String z) {
 
-        int sumaEspacios = 0;
+        double sumaEspacios = 0.0;
         char[] arrayChar = z.toCharArray();
 
         for (int i = 0; i < arrayChar.length; i++) {
@@ -51,7 +52,8 @@ public class Taller01 {
                 sumaEspacios++;
             }
         }
-        System.out.println("Espacios:" + sumaEspacios);
+        System.out.println("Espacios: " + sumaEspacios);
+        return sumaEspacios;
     }
 
     public static void main(String[] args) {
