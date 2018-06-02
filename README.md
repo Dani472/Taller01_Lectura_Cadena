@@ -7,6 +7,6 @@ Permite a partir de una cadena de caracteres visualizar la cantidad de caractere
 
 Integrantes:
 
-Lider : Daniel Muñoz <br />
+Daniel Muñoz <br />
 Diego Muñoz <br />
 Jaiver Lesmes 
